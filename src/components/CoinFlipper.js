@@ -45,7 +45,6 @@ const CoinFlipper = () => {
 
   const buttonText = (() => {
     if (isConnected && account) {
-      console.log(account)
       return shortenAddress(account.address)
     } else if (loading) {
       return 'Connecting...'
