@@ -56,7 +56,7 @@ const CoinFlipper = () => {
       <button
         className="fixed-button"
         onClick={connect}
-      >s
+      >
         {buttonText}
       </button>
       <div className="coin-flipper">
