@@ -7,6 +7,8 @@ program puzzle_coinflip.aleo {
   }
 
   async function store_flip(result: bool) {
+    // let result: u8 = ChaCha::rand_bool();
+
     let current_total: u16 = Mapping::get_or_use(total_flips, 0u8, 0u16);
     Mapping::set(flip_history, current_total, result);
     Mapping::set(total_flips, 0u8, current_total + 1u16);
