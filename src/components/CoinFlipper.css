@@ -128,6 +128,9 @@ body {
 .coin-face.tails {
   background: radial-gradient(circle at 30% 30%, #c0c0c0, #808080);
   color: white;
+}
+
+.coin-face.bottom {
   transform: rotateY(180deg);
 }
 
