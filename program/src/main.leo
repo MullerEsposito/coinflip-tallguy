@@ -1,4 +1,4 @@
-program puzzle_coinflip.aleo {
+program puzzle_coinflip_tallguy.aleo {
   mapping flip_history: u16 => bool;
   mapping total_flips: u8 => u16;
 

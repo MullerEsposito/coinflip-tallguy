@@ -1,4 +1,4 @@
-program puzzle_coinflip.aleo;
+program puzzle_coinflip_tallguy.aleo;
 
 
 
